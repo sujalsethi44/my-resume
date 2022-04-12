@@ -1,0 +1,172 @@
+body{
+    margin: 0px;
+}
+
+#body-header{
+    height: 100vh;
+    background-image: url(walpaper.webp);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    background-attachment: fixed;
+}
+ /* .horizontal-list */
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    transition: color 0.5s;
+}
+
+.horizontal-list li a:hover{
+    color: rgb(138, 116, 116);
+    border-bottom: white 1px solid;
+}
+}
+
+.text-centre{
+    text-align: center;
+} 
+
+.social-media{
+    list-style: none;
+    padding-left: 0px;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 11%;
+} 
+
+.social-media li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    padding-left: 20px;
+}
+
+.social-media li a{
+    text-decoration: none;
+    font-size: 25px;
+}
+.nav{
+    text-align: center;
+  
+}
+#about{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    position: relative;
+}
+
+#about p{
+    padding-top: 3%;
+    padding-left: 20%; 
+    padding-right: 20%;   
+    font-size:larger;
+}
+
+#my-image{
+    height: 17rem;
+    width: 17rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border-style: groove;
+    border-width: medium;
+}
+
+.tech{
+    list-style: none;
+    padding-left: 0px;
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 11%;
+}
+
+.tech li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    padding-left: 20px;
+}
+
+#skills{
+    background-color:gainsboro;
+}
+.heading-editor{
+    font-size: 38px;
+
+}
+.study{
+    list-style: none;
+    padding-left: 0px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 11%;
+    display: flex;
+    padding-inline: 10%;
+    width: 80%;
+}
+
+.study li{
+    list-style: none;
+    /* display: flex; */
+}
+.education{
+    display: flex;
+    padding-inline: 10%;
+}
+#education{
+    background-color: rgb(243, 240, 234);
+}
+
+.inline{
+    display: flex;
+    
+}
+.motivation{
+    padding-inline: 10%;
+    width: 20%;
+    margin-top: 13%;
+   
+}
+
+.last{
+    display: flex;
+}
+
+.form{
+    width: 50%;
+   font-size: large;
+}
+
+.reach-us{
+    width: 50%;
+    margin-top: 4%;
+}
+
+.reach-us li{
+    list-style: none;
+    
+}
+
+#contact{
+    background-color: rgb(0, 0, 48);
+    color: white;
+}
